@@ -4,7 +4,7 @@
 [![GoDoc](https://godoc.org/github.com/tomshaw/nflstats?status.svg)](https://godoc.org/github.com/tomshaw/nflstats)
 ![Supported Version](https://img.shields.io/badge/go%20version-%3E%3D1.19-turquoise)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tomshaw/nflstats)](https://goreportcard.com/report/github.com/tomshaw/nflstats)
-[![License](https://img.shields.io/github/license/tomshaw/nflstats)](https://github.com/tomshaw/nflstats/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/tomshaw/nflstats)](https://github.com/tomshaw/nflstats/blob/master/LICENSE)
 
 `nflstats` is a tool developed to test consuming [sportsdata.io](https://sportsdata.io) NFL feeds.
 
