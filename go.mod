@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/gookit/color v1.5.2
-	github.com/jedib0t/go-pretty/v6 v6.4.3
+	github.com/jedib0t/go-pretty/v6 v6.4.4
 	github.com/joho/godotenv v1.4.0
 )
 
