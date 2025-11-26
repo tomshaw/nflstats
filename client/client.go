@@ -11,7 +11,7 @@ import (
 func Options() {
 	logger.Info(logger.Blue("Starting application..."))
 
-	var api string = common.RunningInfo.ApiName
+	api := common.RunningInfo.ApiName
 
 	if common.RunningInfo.Help {
 		logger.Info(logger.LightGreen(">> Display help screen"))
@@ -24,7 +24,7 @@ func Options() {
 		logger.Fatal(logger.LightGreen("Selected API does not exist: ") + logger.Red(api))
 	}
 
-	var apiKey string = utils.GetEnv("API_KEY")
+	apiKey := utils.GetEnv("API_KEY")
 	if len(apiKey) != 0 {
 		common.RunningInfo.ApiKey = apiKey
 	}

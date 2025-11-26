@@ -66,13 +66,15 @@ func General(level Level, msg string, title string) {
 
 func WriteLogFile(result string, filename string) {
 	var text = []byte(result + "\n")
-	fl, err := os.OpenFile(filename, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
+	fl, err := os.OpenFile(filename, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0600) // #nosec G304
 	if err != nil {
 		fmt.Printf("Open %s error, %v\n", filename, err)
 		return
 	}
 	_, err = fl.Write(text)
-	fl.Close()
+	if closeErr := fl.Close(); closeErr != nil {
+		fmt.Printf("Close %s error, %v\n", filename, closeErr)
+	}
 	if err != nil {
 		fmt.Printf("Write %s error, %v\n", filename, err)
 	}
