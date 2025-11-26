@@ -1,15 +1,7 @@
-version: 2
+version: "2"
 
 run:
   tests: false
-
-issues:
-  max-issues-per-linter: 0
-  max-same-issues: 0
-  exclude-rules:
-    - path: cmd/
-      linters:
-        - errcheck
 
 linters:
   enable:
