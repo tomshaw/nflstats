@@ -2,7 +2,7 @@
 
 ![release](https://github.com/tomshaw/nflstats/actions/workflows/release.yml/badge.svg)
 [![GoDoc](https://godoc.org/github.com/tomshaw/nflstats?status.svg)](https://godoc.org/github.com/tomshaw/nflstats)
-![Supported Version](https://img.shields.io/badge/go%20version-%3E%3D1.19-turquoise)
+![Supported Version](https://img.shields.io/badge/go%20version-%3E%3D1.24-turquoise)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tomshaw/nflstats)](https://goreportcard.com/report/github.com/tomshaw/nflstats)
 [![License](https://img.shields.io/github/license/tomshaw/nflstats)](https://github.com/tomshaw/nflstats/blob/master/LICENSE)
 
@@ -14,7 +14,7 @@
 go install github.com/tomshaw/nflstats@latest
 ```
 
-> nflstats has been tested and supports Go versions >=1.19.x.
+> nflstats has been tested and supports Go versions >=1.24.x.
 
 ## API Key
 
