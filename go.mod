@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/gookit/color v1.6.0
-	github.com/jedib0t/go-pretty/v6 v6.7.7
+	github.com/jedib0t/go-pretty/v6 v6.7.8
 	github.com/joho/godotenv v1.5.1
 )
 
